@@ -8,3 +8,9 @@ const firstNames = ["Jason", "Jack", "Terry", "Lester"];
 const fullNames = firstNames.map(name => `${name} Wise`);
 
 console.log(fullNames);
+
+// Take a string and split it by the characters 
+const string = "Jason"
+const splitString = string.split("");
+
+console.log(splitString);
