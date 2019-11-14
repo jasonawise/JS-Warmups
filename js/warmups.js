@@ -14,3 +14,6 @@ const string = "Jason"
 const splitString = string.split("");
 
 console.log(splitString);
+
+// Console log each first name on a seperate line
+firstNames.map(name => console.log(name))
