@@ -20,3 +20,6 @@ firstNames.map(name => console.log(name))
 
 // Console log each first name on a seperate line again...
 firstNames.map(name => console.log(name));
+
+// Console log each first name on a seperate line again...
+firstNames.map(name => console.log(name));
