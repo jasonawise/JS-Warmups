@@ -26,7 +26,13 @@ firstNames.map(name => console.log(name));
 // Console log each first name on a seperate line again...
 firstNames.map(name => console.log(name));
 
-// Sum the numbers array
+// Sum the numbers array in a for loop
+let sum = 0;
+for ( i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+}
+console.log(`The Sum of the Array is ${sum}`);
+
 
 // Find the max of numbers array
 
