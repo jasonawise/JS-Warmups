@@ -33,6 +33,8 @@ for ( i = 0; i < numbers.length; i++) {
 }
 console.log(`The Sum of the Array is ${sum}`);
 
+// Print the numbers array
+numbers.map(num => console.log(num));
 
 // Find the max of numbers array
 
