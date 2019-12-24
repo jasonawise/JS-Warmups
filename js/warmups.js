@@ -36,7 +36,8 @@ console.log(`The Sum of the Array is ${sum}`);
 // Print the numbers array
 numbers.map(num => console.log(num));
 
-// Find the max of numbers array
+// Find the max of the numbers array
+console.log(`The max number in the array is ${Math.max(...numbers)}`);
 
 // find the min of the numbers array
 
