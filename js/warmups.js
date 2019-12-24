@@ -3,6 +3,8 @@ const firstNames = ["Jason", "Jack", "Terry", "Lester"];
 
 const numbers = [1, 2, 3, 4, 5];
 
+const mixedArray = [1, 'a', 'b', 2];
+
 // Use an arrow Function to map over the values in first name and add wise to them
 // Arrow functions use implicit returns -- with these types of callback functions where
 // we just return something immediately we can do that in one line -- therefore there is no
@@ -38,6 +40,10 @@ numbers.map(num => console.log(num));
 
 // Find the max of the numbers array
 console.log(`The max number in the array is ${Math.max(...numbers)}`);
+
+// Remove the non numbers from the mixedArray
+
+// Remove the numbers from the mixedArray
 
 // find the min of the numbers array
 
