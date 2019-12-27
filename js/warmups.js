@@ -42,12 +42,18 @@ numbers.map(num => console.log(num));
 console.log(`The max number in the array is ${Math.max(...numbers)}`);
 
 // Remove the non numbers from the mixedArray
-for(let i=0; mixedArray.length > i; i++) {
-    if(!isNaN(mixedArray[i])) {
-        mixedArray.slice(i, 1);
-        console.log("Not a number");
+
+// need to get the length of the array before splice
+const arrayLength = mixedArray.length;
+
+for(let i=0; arrayLength > i; i++) {
+    if(isNaN(mixedArray[i])) {
+        mixedArray.splice(i, 1);
+        console.log(`mixed array after splice: ${mixedArray}`);
     }
 }
+
+console.log(mixedArray);
 
 
 // Remove the numbers from the mixedArray
