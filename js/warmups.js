@@ -59,8 +59,21 @@ console.log(mixedArray);
 // Remove the numbers from the mixedArray
 
 // find the min of the numbers array
+const minOfArray = Math.min(...numbers);
+console.log(`The min of hte numbers in the array is ${minOfArray}`);
 
 // find the average of the numbers array
+    // get the sum of the array, then divide by length of array
+let sumOfArray = 0;
+const numbersArrayLength = numbers.length;
+
+for ( i = 0; i < numbers.length; i++) {
+    sumOfArray += numbers[i];
+}
+
+const averageOfArray = sumOfArray / numbersArrayLength
+
+console.log(`The average of the numbers array is: ${averageOfArray}`)
 
 // show only even numbers
 
